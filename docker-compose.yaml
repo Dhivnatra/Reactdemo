@@ -1,0 +1,7 @@
+version: '3'
+services:
+ reactapplication:
+  image: nginx 
+  container_name: react_cont
+  ports:
+   - 80:80
