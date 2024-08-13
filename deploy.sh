@@ -1,6 +1,6 @@
 
 #!/bin/bash
-
+echo "$GIT_BRANCH"
 if [[ $GIT_BRANCH == "origin/dev" ]]; then
     ./build.sh
     docker tag reactimg "$DOCKER_REACT_IMAGED1"
